@@ -12,8 +12,8 @@ module VagrantPlugins
       end
 
       guest_capability("freebsd", "verify_vmware_hgfs") do
-        require_relative "cap/mount_vmware_shared_folder"
-        Cap::MountVmwareSharedFolder
+        require_relative "cap/verify_vmware_hgfs"
+        Cap::VerifyVmwareHgfs
       end
     end
   end
