@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "vagrant-vmware-freebsd"
-  spec.version       = "1.0.3"
+  spec.version       = "1.0.4"
   spec.authors       = ["Geoff Garside"]
   spec.email         = ["geoff@geoffgarside.co.uk"]
   spec.description   = %q{Provides vagrant capabilities for VMware FreeBSD machines.}
