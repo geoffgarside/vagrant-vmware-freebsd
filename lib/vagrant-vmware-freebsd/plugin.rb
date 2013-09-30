@@ -1,7 +1,7 @@
 require "vagrant"
 
 module VagrantPlugins
-  module VMwareFreeBSD
+  module VmwareFreebsd
     class Plugin < Vagrant.plugin(2)
       name "VMware FreeBSD"
       description "VMware capabilities for FreeBSD."
